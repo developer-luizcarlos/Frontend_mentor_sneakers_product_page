@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <aside class="side_component close">
+    <div class="side_menu">
+      <div class="side_menu_head">
+        <button class="side_head_close"><img src="images/icon-close.svg" alt=""></button>
+      </div>
+      <div class="side_menu_body">
+        <ul>
+          <a href="#">
+            <li>Collections</li>
+          </a><a href="#">
+            <li>Men</li>
+          </a><a href="#">
+            <li>Women</li>
+          </a><a href="#">
+            <li>About</li>
+          </a><a href="#">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </aside>
+  <header>
+    <div class="container">
+      <div class="header_wrapper">
+        <nav>
+          <button class="menu_icon">
+            <img src="images/icon-menu.svg" alt="">
+          </button>
+          <a href="#">
+            <img src="images/logo.svg" alt="sneakers">
+          </a>
+          <ul>
+            <a href="#">
+              <li>Collections</li>
+            </a>
+            <a href="#">
+              <li>Men</li>
+            </a>
+            <a href="#">
+              <li>Women</li>
+            </a>
+            <a href="#">
+              <li>About</li>
+            </a>
+            <a href="#">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </nav>
+        <div class="cart_and_login">
+          <div class="cart_icon">
+            <img src="images/icon-cart.svg" alt="cart">
+            <div class="items_purchase close">
+              0
+            </div>
+            <div class="cart_items close">
+              <div class="cart_items_head">
+                <h3>Cart</h3>
+              </div>
+              <div class="cart_items_empty">
+                <h4>Your cart is empty</h4>
+              </div>
+              <div class="cart_items_list_purchase close">
+                <div class="cart_items_list_head">
+                  <div class="list_head_product">
+                    <img src="images/image-product-1-thumbnail.jpg" alt="">
+                  </div>
+                  <div class="list_head_desc">
+                    <div class="list_head_desc_title">
+                      Fall Limited Edition Sneakers
+                    </div>
+                    <div class="list_head_desc_price">
+                      <div class="list_price"><span>$125.00</span> x <span class="list_price_qtde">3</span></div>
+                      <div class="list_amount">$00.00</div>
+                    </div>
+                  </div>
+                  <div class="cart_items_delete_item">
+                    <img src="images/icon-delete.svg" alt="">
+                  </div>
+                </div>
+                <button class="cart_item_list_purchase_btn">Checkout</button>
+              </div>
+            </div>
+          </div>
+          <div class="profile">
+            <img src="images/image-avatar.png" alt="avatar client">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="slider_mobile">
+      <img src="images/image-product-1.jpg" alt="" class="slider_mobile_img">
+      <div class="slider_mobile_controls">
+        <button class="slider_controls_btn">
+          <</button>
+            <button class="slider_controls_btn">></button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="main_wrapper">
+        <div class="gallery_sneakers">
+          <img src="images/image-product-1.jpg" alt="" class="gallery_selected">
+          <div class="gallery_options">
+            <img src="images/image-product-1-thumbnail.jpg" alt="" class="images_options effect">
+            <img src="images/image-product-2-thumbnail.jpg" alt="" class="images_options">
+            <img src="images/image-product-3-thumbnail.jpg" alt="" class="images_options">
+            <img src="images/image-product-4-thumbnail.jpg" alt="" class="images_options">
+          </div>
+        </div>
+        <section>
+          <div class="description_sneaker_header">
+            <span>sneaker company</span>
+            <h1>fall limited edition<br /> sneakers</h1>
+          </div>
+          <div class="description_sneaker_body">
+            <p>These low-Profile sneakers are your perfect casual wear<br /> companion. Featuring a durable rubber outer
+              sole, the'll<br /> withstand everthing the weather can offer.</p>
+            <div class="price_area">
+              <div class="current_price_area">
+                <div class="current_price">$125.00</div>
+                <div class="discount">50%</div>
+              </div>
+              <div class="ancient_price">$250.00</div>
+            </div>
+            <div class="buy_items_area">
+              <div class="add_items_qtde">
+                <button class="btn_minus_price btn_price">
+                  <img src="images/icon-minus.svg" alt="">
+                </button>
+                <div class="visor_qtde">0</div>
+                <button class="btn_plus_price btn_price">
+                  <img src="images/icon-plus.svg" alt="">
+                </button>
+              </div>
+              <button class="btn_add_cart">
+                <img src="images/icon-cart2.svg" alt="">
+                <span>Add to cart</span>
+                <button />
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <div class="slider_component close">
+    <button class="slider_close">
+      <img src="images/icon-close.svg" alt="">
+    </button>
+    <div class="slider">
+      <div class="slider_head">
+        <img src="images/image-product-1.jpg" alt="" class="slider_head_selected">
+        <div class="slider_buttons">
+          <button class="slider_btn_change_img">
+<</button>
+              <button class="slider_btn_change_img">></button>
+        </div>
+      </div>
+      <div class="slider_body">
+        <img src="images/image-product-1-thumbnail.jpg" alt="" class="slider_body_images effect">
+        <img src="images/image-product-2-thumbnail.jpg" alt="" class="slider_body_images">
+        <img src="images/image-product-3-thumbnail.jpg" alt="" class="slider_body_images">
+        <img src="images/image-product-4-thumbnail.jpg" alt="" class="slider_body_images">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

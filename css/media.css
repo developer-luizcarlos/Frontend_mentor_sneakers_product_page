@@ -1,0 +1,77 @@
+@media screen and (max-width: 884px) {
+    .container {
+        width: 90%;
+    }
+
+    .header_wrapper {
+        border: none;
+    }
+
+    .header_wrapper nav {
+        column-gap: 10px;
+    }
+
+    .header_wrapper nav .menu_icon {
+        display: flex;
+    }
+
+    .header_wrapper nav ul {
+        display: none;
+    }
+
+    .header_wrapper .cart_and_login .cart_icon .cart_items {
+        top: 100px;
+        margin: 0 auto;
+    }
+
+    main .slider_mobile {
+        display: block;
+    }
+
+    .main_wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .main_wrapper .gallery_sneakers {
+        display: none;
+    }
+
+    .main_wrapper section .description_sneaker_body {
+        row-gap: 40px;
+    }
+
+    .main_wrapper section .description_sneaker_body p {
+        font-size: 1.2rem;
+    }
+
+    .main_wrapper section .description_sneaker_body .price_area {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .main_wrapper section .description_sneaker_body .price_area .current_price_area .current_price {
+        font-size: 2rem;
+    }
+
+    .main_wrapper section .description_sneaker_body .buy_items_area {
+        width: 100%;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    .main_wrapper section .description_sneaker_body .buy_items_area .add_items_qtde {
+        width: 100%;
+    }
+
+    .main_wrapper section .description_sneaker_body .buy_items_area .btn_add_cart {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 834px) and (max-width: 960px) {
+    main .slider_mobile {
+        height: 570px;
+    }
+}
